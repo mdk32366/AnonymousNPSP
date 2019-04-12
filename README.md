@@ -42,3 +42,18 @@ Proposed approach for NPSP:
 Anonymous Accounts:  Create two custom fields that solve two different problems.  ACTUAL ORGANIZATION (this field name should be changed to reflect the correct Account Type (Organization, Foundation, etc.)) - This tells the ACTUAL name of the donating foundation or organization.  Foundation Recognition Name is ANOTHER field, which is used in communication and maybe reporting to properly attribute the donations from that organization, whose legal name may be unwieldy.  The real Account Name for the organization who whats to be anonymous will be ANONYMOUS FOUNDATION or ANONYMOUS ORGANIZATION, etc.
 
 Anonymous Donations:  Same sort of arrangement, except you only need ONE custom field, which is Donation Recognition Name, or similar.  This field is used to properly refer to the specific donation correctly.  If the donation is anonymous, then you put 'Anonymous' in that field, and this field is used in reports and communications.
+
+
+YOUR CHOICES!
+
+What if my contact works at a company, doesn't donate, and I don't know a thing about his family?
+
+You have a choice on this one.
+
+n  The Household Account model assigns EVERY contact to a household by default. You can simply go with the default, which is the strong recommendation of the Salesforce Foundation's developers, and create an Affiliation between your contact and her company, listing her role in the company.
+
+You will do that with your donors as well-- accept the Household as their Account, and then connect them to their workplaces with Affiliations.
+
+n  OR-- you can, when you create the contact, put their workplace into the Account field. If they surprise you and become a donor, just delete the account name from the Contact record and a household will magically appear there.
+
+The Affiliation will not be erased, though, but will be marked as Former. If your contact is still working at the company, you'll want to change the Affiliation record back to Current. 
