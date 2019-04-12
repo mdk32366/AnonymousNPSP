@@ -38,3 +38,7 @@ Any thoughts on how to resolve this?
 Our current NPSP settings are...
 
 
+Proposed approach for NPSP:
+Anonymous Accounts:  Create two custom fields that solve two different problems.  ACTUAL ORGANIZATION (this field name should be changed to reflect the correct Account Type (Organization, Foundation, etc.)) - This tells the ACTUAL name of the donating foundation or organization.  Foundation Recognition Name is ANOTHER field, which is used in communication and maybe reporting to properly attribute the donations from that organization, whose legal name may be unwieldy.  The real Account Name for the organization who whats to be anonymous will be ANONYMOUS FOUNDATION or ANONYMOUS ORGANIZATION, etc.
+
+Anonymous Donations:  Same sort of arrangement, except you only need ONE custom field, which is Donation Recognition Name, or similar.  This field is used to properly refer to the specific donation correctly.  If the donation is anonymous, then you put 'Anonymous' in that field, and this field is used in reports and communications.
